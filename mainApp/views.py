@@ -70,4 +70,5 @@ def signUpProcess(request):
     p = User(email = email,password=password,name=name,profile=uploaded_img_url)  #blue wale fields models ki h
     p.save()
 
+
     return redirect('/')
